@@ -7,4 +7,4 @@ A repository containing all the different pet projects I created using ASP.NET C
 - dotnet run '--project' ___proj_name___
 
 - dotnet new --list 'shows all of the types of projects we can have'
-- dotnet watch run 'ng serve'
+- dotnet watch run 'ng serve' 
