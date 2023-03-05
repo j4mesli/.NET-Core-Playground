@@ -1,4 +1,4 @@
-# ASP.NET-Core-Projects
+# ASP.NET-Core-Playground
 A repository containing all the different pet projects I created using ASP.NET Core, with links to said projects provided where applicable.
 
 # Create New Project
