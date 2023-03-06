@@ -10,13 +10,16 @@ namespace dotnet_rpg.Controllers
     [ApiController]
     [Route("api/[controller]")]
     public class CharacterController : ControllerBase {
-        private static Character knight = new Character();
+        private static List<Character> characters = new List<Character>{
+            new Character(),
+            new Character { Name = "Sam" }
+        };
 
         // send CODE: 200, Character: knight.json
         // badrequest and notfound are also options
         [HttpGet]
         public ActionResult<Character> Get() {
-            return Ok(knight);
+            return Ok(characters);
         }
     }
 }
